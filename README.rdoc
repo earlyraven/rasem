@@ -131,7 +131,7 @@ You can generate SVG and store it to file
   img.line(0, 0, 100, 100)
   
 
-  File.open("test.svg", w") do |f|
+  File.open("test.svg", "w") do |f|
     img.write(f)
   end
 
